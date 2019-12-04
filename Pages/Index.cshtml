@@ -12,12 +12,12 @@
 
     @foreach (var product in Model.Products)
     {
-    <div class="card-columns">
-        <div class="card-img"> style="background-image: url('@product.Image');"</div>
+    
+        <div class="card-img" style="background-image: url('@product.Image');"></div>
         
            <h5 class = "card-title">@product.Title</h5>
         
        
-        </div>
+       
         }
     </div>
